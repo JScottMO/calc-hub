@@ -25,6 +25,7 @@ const PasswordGenerator = lazy(() => import("./pages/calculators/PasswordGenerat
 const LengthConverter = lazy(() => import("./pages/converters/LengthConverter"));
 const TemperatureConverter = lazy(() => import("./pages/converters/TemperatureConverter"));
 const WeightConverter = lazy(() => import("./pages/converters/WeightConverter"));
+const CurrencyConverter = lazy(() => import("./pages/converters/CurrencyConverter"));
 
 const queryClient = new QueryClient();
 
