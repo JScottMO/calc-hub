@@ -50,7 +50,7 @@ export const calculators: CalculatorInfo[] = [
   { id: "mortgage", name: "Mortgage Calculator", description: "Monthly payments and amortization schedule", category: "finance", path: "/calculator/mortgage", keywords: ["loan", "mortgage", "payment", "house", "home"], icon: CreditCard, implemented: true },
   { id: "discount", name: "Discount Calculator", description: "Original price, % off → final price", category: "finance", path: "/calculator/discount", keywords: ["sale", "discount", "price", "savings", "off"], icon: Tag, implemented: true },
   { id: "sales-tax", name: "Sales Tax Calculator", description: "Calculate sales tax on a purchase", category: "finance", path: "/calculator/sales-tax", keywords: ["tax", "sales", "purchase"], icon: ShoppingCart, implemented: false },
-  { id: "currency", name: "Currency Converter", description: "Live exchange rates", category: "finance", path: "/converter/currency", keywords: ["currency", "exchange", "forex", "money"], icon: Coins, implemented: false },
+  { id: "currency", name: "Currency Converter", description: "Live exchange rates", category: "finance", path: "/converter/currency", keywords: ["currency", "exchange", "forex", "money"], icon: Coins, implemented: true },
 
   // Math
   { id: "scientific", name: "Scientific Calculator", description: "Trig, logs, exponents, and more", category: "math", path: "/calculator/scientific", keywords: ["scientific", "trig", "sin", "cos", "log", "exponent"], icon: Calculator, implemented: false },

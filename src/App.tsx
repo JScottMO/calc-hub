@@ -63,6 +63,7 @@ const App = () => (
               <Route path="/converter/length" element={<LengthConverter />} />
               <Route path="/converter/temperature" element={<TemperatureConverter />} />
               <Route path="/converter/weight" element={<WeightConverter />} />
+              <Route path="/converter/currency" element={<CurrencyConverter />} />
 
               {/* Fun */}
               <Route path="/calculator/password-generator" element={<PasswordGenerator />} />
