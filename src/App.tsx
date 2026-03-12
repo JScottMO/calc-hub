@@ -25,6 +25,7 @@ const PasswordGenerator = lazy(() => import("./pages/calculators/PasswordGenerat
 const LengthConverter = lazy(() => import("./pages/converters/LengthConverter"));
 const TemperatureConverter = lazy(() => import("./pages/converters/TemperatureConverter"));
 const WeightConverter = lazy(() => import("./pages/converters/WeightConverter"));
+const CurrencyConverter = lazy(() => import("./pages/converters/CurrencyConverter"));
 
 const queryClient = new QueryClient();
 
@@ -62,6 +63,7 @@ const App = () => (
               <Route path="/converter/length" element={<LengthConverter />} />
               <Route path="/converter/temperature" element={<TemperatureConverter />} />
               <Route path="/converter/weight" element={<WeightConverter />} />
+              <Route path="/converter/currency" element={<CurrencyConverter />} />
 
               {/* Fun */}
               <Route path="/calculator/password-generator" element={<PasswordGenerator />} />
